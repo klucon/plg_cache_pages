@@ -2,13 +2,11 @@ from __future__ import annotations
 
 import time
 
-import pytest
 from httpx import AsyncClient
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.plugins.plg_cache_pages.cache import PageCache, page_cache
 from src.plugins.plg_cache_pages.service import get_or_create_settings, save_settings
-
 
 # ---------------------------------------------------------------------------
 # PageCache unit tests (no DB needed)

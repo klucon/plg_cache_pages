@@ -9,12 +9,12 @@ if TYPE_CHECKING:
 _PLUGIN_DIR = Path(__file__).parent
 
 
-def setup(registry: "ComponentRegistry") -> None:
+def setup(registry: ComponentRegistry) -> None:
     from jinja2 import FileSystemLoader
-
     from src.core.hooks import hooks
     from src.core.templates import admin_templates
     from src.i18n.translator import translator
+
     from src.plugins.plg_cache_pages import admin
     from src.plugins.plg_cache_pages.cache import page_cache
 
