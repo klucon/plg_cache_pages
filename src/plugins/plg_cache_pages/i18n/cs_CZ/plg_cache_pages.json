@@ -1,0 +1,17 @@
+{
+  "extensions.name.plg_cache_pages": "Cache stránek",
+  "permissions.cache.manage": "Správa cache stránek",
+
+  "cache.admin.heading": "Cache stránek",
+  "cache.admin.enabled": "Cache aktivní",
+  "cache.admin.default_ttl": "Výchozí TTL (sekundy)",
+  "cache.admin.max_entries": "Maximální počet položek",
+  "cache.admin.save": "Uložit nastavení",
+  "cache.admin.clear": "Vymazat cache",
+  "cache.admin.stats.heading": "Statistiky",
+  "cache.admin.stats.entries": "Položek v cache",
+  "cache.admin.stats.hits": "Počet zásahů",
+  "cache.admin.stats.misses": "Počet minutí",
+  "cache.admin.updated_at": "Naposledy změněno",
+  "cache.admin.usage_note": "Cache je sdílená pro celou aplikaci. Ostatní rozšíření ji mohou využívat přes <code>from src.plugins.plg_cache_pages.cache import page_cache</code>."
+}

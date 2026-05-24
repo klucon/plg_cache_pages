@@ -1,0 +1,17 @@
+{
+  "extensions.name.plg_cache_pages": "Page Cache",
+  "permissions.cache.manage": "Manage page cache",
+
+  "cache.admin.heading": "Page Cache",
+  "cache.admin.enabled": "Cache enabled",
+  "cache.admin.default_ttl": "Default TTL (seconds)",
+  "cache.admin.max_entries": "Maximum entries",
+  "cache.admin.save": "Save settings",
+  "cache.admin.clear": "Clear cache",
+  "cache.admin.stats.heading": "Statistics",
+  "cache.admin.stats.entries": "Cached entries",
+  "cache.admin.stats.hits": "Cache hits",
+  "cache.admin.stats.misses": "Cache misses",
+  "cache.admin.updated_at": "Last updated",
+  "cache.admin.usage_note": "The cache is application-wide. Other extensions can use it via <code>from src.plugins.plg_cache_pages.cache import page_cache</code>."
+}
