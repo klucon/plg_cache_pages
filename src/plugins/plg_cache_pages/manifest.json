@@ -4,7 +4,7 @@
   "type": "plugin",
   "vendor": "klucon",
   "extension_id": "klucon/plg_cache_pages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "display_name": "Cache stránek",
   "display_name_key": "extensions.name.plg_cache_pages",
   "description": "In-memory TTL cache s admin rozhraním. Ostatní rozšíření ji mohou využívat přes page_cache API. Automaticky invaliduje při změně obsahu.",
@@ -21,7 +21,10 @@
     "core_min": "0.2.0",
     "core_max": null,
     "python": ">=3.12",
-    "database": ["mysql", "postgresql"]
+    "database": [
+      "mysql",
+      "postgresql"
+    ]
   },
   "package": {
     "entrypoint": "src.plugins.plg_cache_pages",
@@ -37,7 +40,10 @@
   "i18n": {
     "domain": "plg_cache_pages",
     "locales_path": "i18n",
-    "required_locales": ["cs_CZ", "en_GB"]
+    "required_locales": [
+      "cs_CZ",
+      "en_GB"
+    ]
   },
   "migrations": {
     "enabled": false,
@@ -54,7 +60,12 @@
   },
   "marketplace": {
     "category": "performance",
-    "tags": ["cache", "performance", "ttl", "memory"],
+    "tags": [
+      "cache",
+      "performance",
+      "ttl",
+      "memory"
+    ],
     "featured": false
   },
   "changelog": "První vydání: in-memory TTL cache, admin UI se statistikami, automatická invalidace při content hooks."
